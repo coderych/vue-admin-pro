@@ -8,7 +8,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppMain: typeof import('./../src/components/AdminLayout/src/components/AppMain.vue')['default']
     AsynchronousContinuations: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/AsynchronousContinuations/index.vue')['default']
     Condition: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Condition/index.vue')['default']
     Documentation: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Documentation/index.vue')['default']
@@ -21,7 +20,6 @@ declare module 'vue' {
     Firework: typeof import('./../src/components/Application/src/Firework.vue')['default']
     Forms: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Forms/index.vue')['default']
     General: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/General/index.vue')['default']
-    Header: typeof import('./../src/components/AdminLayout/src/components/Header.vue')['default']
     HistoryCleanup: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/HistoryCleanup/index.vue')['default']
     Icon: typeof import('./../src/components/Application/src/Icon.vue')['default']
     IconSelect: typeof import('./../src/components/Form/IconSelect/index.vue')['default']
@@ -29,8 +27,6 @@ declare module 'vue' {
     Implementation: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Implementation/index.vue')['default']
     Inputs: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Inputs/index.vue')['default']
     JobExecution: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/JobExecution/index.vue')['default']
-    Logo: typeof import('./../src/components/AdminLayout/src/components/Logo.vue')['default']
-    MobileSider: typeof import('./../src/components/AdminLayout/src/components/MobileSider.vue')['default']
     ModelerTools: typeof import('./../src/components/BpmnModeler/src/components/ModelerTools/index.vue')['default']
     MultiInstance: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/MultiInstance/index.vue')['default']
     NAlert: typeof import('naive-ui')['NAlert']
@@ -98,9 +94,8 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Script: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Script/index.vue')['default']
-    Scrollbar: typeof import('./../src/components/AdminLayout/src/components/Scrollbar.vue')['default']
-    Sider: typeof import('./../src/components/AdminLayout/src/components/Sider.vue')['default']
-    Src: typeof import('./../src/components/AdminLayout/src/index.vue')['default']
+    Scrollbar: typeof import('./../src/components/Application/src/Scrollbar.vue')['default']
+    Src: typeof import('./../src/components/BpmnModeler/src/index.vue')['default']
     TableHeader: typeof import('./../src/components/ProComponents/ProTable/components/TableHeader.vue')['default']
     Task: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/Task/index.vue')['default']
     TaskListeners: typeof import('./../src/components/BpmnModeler/src/components/PropertiesPanel/TaskListeners/index.vue')['default']
